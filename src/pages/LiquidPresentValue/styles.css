@@ -1,0 +1,52 @@
+.fields-container {
+    width: 98%;
+    border-width: 1px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 4px;
+    background-color: var(--color-lighter-blue);
+}
+
+.fields-container h3 {
+    margin-left: 10px;
+    display: inline-block;
+    font-size: 24px;
+    color: var(--color-text-dark-blue);
+}
+
+.fields-container button {
+    margin-left: 58%;
+}
+
+.text-container {
+    margin: 0 auto;
+    padding: 4px;
+    width: 90%;
+}
+
+.paragraph-text {
+    color: var(--color-text-dark-blue);
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    text-align: justify;
+}
+
+@media (max-width: 700px) {
+    .fields-container {
+        width: auto;
+        text-align: center;
+    }
+
+    .fields-container h3 {
+        margin: 10px auto;
+        display: inline-block;
+        font-size: 22px;
+        text-align: center;
+
+    }
+
+    .fields-container button {
+        width: 100%;
+        margin: 5px auto;
+    }
+}

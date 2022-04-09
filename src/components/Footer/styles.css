@@ -1,0 +1,33 @@
+.footer-container {
+    background-color: var(--color-primary);
+    border-radius: 5px;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+}
+
+.footer-container h2 {
+    font-family: Merriweather, sans-serif;
+    color: var(--white);
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.footer-container p {
+    font-family: Roboto, sans-serif;
+    color: var(--white);
+    font-size: 18px;
+    font-weight: normal;
+}
+
+@media (max-width: 700px){
+    .footer-container p {
+        font-size: 16px;
+    }
+
+    .footer-container h2 {
+        font-size: 28px;
+    }
+}
